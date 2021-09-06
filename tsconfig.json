@@ -3,7 +3,7 @@
     "target": "es2018",
     "module": "esnext",
     "lib": ["es2015", "es2019", "dom"],
-    "types": ["@league-of-foundry-developers/foundry-vtt-types", "webpack-env"],
+    "types": ["@league-of-foundry-developers/foundry-vtt-types"],
     "moduleResolution": "node",
     "sourceMap": true,
     "strict": true,
@@ -22,6 +22,5 @@
     "forceConsistentCasingInFileNames": true,
     "jsx": "react-jsx"
   },
-  "include": ["./src/**/*"],
-  "exclude": ["node_modules", "webpack.config.js", "foundry.js", "dist"]
+  "include": ["./src/**/*"]
 }
