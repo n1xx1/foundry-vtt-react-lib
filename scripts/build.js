@@ -1,6 +1,5 @@
 const esbuild = require("esbuild");
 const { mkdir, copyFile, rm, chmod } = require("fs/promises");
-const { constants } = require("fs");
 
 (async () => {
   await rm("dist", { recursive: true, force: true }).catch(() => {});
